@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>210713</title>
+    <url>/2021/07/Notes-210713/</url>
+    <content><![CDATA[<blockquote>
+<p>1.win7更新node.js<br>2.hexo的next主题设置自定义文章目录</p>
+</blockquote>
+<span id="more"></span>  
+
+<h3 id="1-win7更新node-js"><a href="#1-win7更新node-js" class="headerlink" title="1.win7更新node.js"></a>1.win7更新node.js</h3><p>windows系统没办法使用 n 来更新 nodejs 版本，要更新 nodejs 的话，重新下载 nodejs，覆盖安装即可<br>win7能支持的最高版本是<br>13.14.0<br>如果不知道nodejs的安装目录<br>npm config ls</p>
+<!--more-->
+
+<h3 id="2-hexo的next主题设置自定义文章目录"><a href="#2-hexo的next主题设置自定义文章目录" class="headerlink" title="2.hexo的next主题设置自定义文章目录"></a>2.hexo的next主题设置自定义文章目录</h3><p>用途：<br>建立笔记和故事的归档分类<br>写作的时候，在categories中写上归档分类<br>例如：Notes 或者 Stories<br>这样在文章发布时，在git中使用hexo g命令，hexo会在根目录 <strong>/public/categories</strong>下自动生成归档文件夹<br>配置博客首页归档展示样式，在主题配置文件<strong>themes/_config.yml</strong>中添加以下代码</p>
+<pre><code>menu:
+home: / || fa fa-home
+tags: /tags/ || fa fa-tags
+categories: /categories/ || fa fa-th
+archives: /archives/ || fa fa-archive
+notes: /categories/Notes || fa fa-user
+stories: /categories/Stories || fa fa-calendar
+</code></pre>
+<p>修改主题配置文件下 <strong>language/zh-CN.yml</strong> 和 <strong>language/en.yml</strong> 中相应的地方<br>例如<strong>zh-CN.yml</strong>里的  </p>
+<pre><code>menu:
+home: 首页
+archives: 归档
+categories: 分类
+tags: 标签
+notes: 笔记
+stories: 故事
+</code></pre>
+<p>再部署就可以了</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>210712</title>
+    <url>/2021/07/Notes-210712/</url>
+    <content><![CDATA[<blockquote>
+<p>1.Unity直接以Android平台打开工程（不用手动切换平台）<br>2.Unity中的 Api Compatibility Level  </p>
+</blockquote>
+<span id="more"></span>  
+
+
+<h3 id="1-Unity直接以Android平台打开工程（不用手动切换平台）"><a href="#1-Unity直接以Android平台打开工程（不用手动切换平台）" class="headerlink" title="1.Unity直接以Android平台打开工程（不用手动切换平台）"></a>1.Unity直接以Android平台打开工程（不用手动切换平台）</h3><p>找到相应的Unity.exe所在的目录<br>F:\Unity5.5.5\Unity\Editor\Unity.exe</p>
+<p>在目录下打开命令行窗口<br>执行：</p>
+<p>Unity.exe -projectPath E:\Dev\Client -buildTarget android</p>
+<hr>
+<h3 id="2-Unity中的-Api-Compatibility-Level"><a href="#2-Unity中的-Api-Compatibility-Level" class="headerlink" title="2.Unity中的 Api Compatibility Level"></a>2.Unity中的 Api Compatibility Level</h3><p>PlayerSettings里面<br>.NET 4.x 比 .NET Standard 2.0 要高<br>支持的方法也  更多<br>例如：</p>
+<p>using System.Runtime.Remoting;</p>
+<p>这个在 .NET Standard 2.0里就没有<br>切换成 .NET 4.x就支持了</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「关心」 「陪伴」 「照顾」</title>
+    <url>/2015/10/Story-AccompanyTogetherCare/</url>
+    <content><![CDATA[<p>少年来到这个家已经十二个月了。<br>这个家的爸爸妈妈对于他来说，并不是什么不可取代的存在。当然，他们也没有尽心地照顾少年。<br>闹钟响了，少年起床。叠好被子，穿好衣服，准备去厨房做今天的早餐。<br>咚咚，有敲门的声音。平常的话是绝对不会有人敲门的，他们都是直接闯进来的。<br>少年打开门，印象中并不和善的妈妈，鼓着大肚子，端着培根和煎蛋进来了。</p>
+<span id="more"></span>
+<p>少年在诧异中接过盘子和早餐，一句话也没有说。<br>“你看，你很快就会有弟弟了。多吃点，补补身子。”<br>母亲要生弟弟和自己营养不良有什么关系。<br>“等弟弟生下来你就成哥哥了，要多陪伴他啊。”母亲说完，转身离开了房间，只剩少年一头雾水的站在那里。</p>
+<p> 干完了一天的家务，少年看看时钟，已经入夜深了。正准备回去休息时，看到了父母房间的灯还亮着，以及无意中听到：<br>“果然还是决定流产吗？”、<br>“没办法。”<br>“但是这次动手术的话，你就没办法再生孩子了。”<br>“那只能让那孩子当弟弟了。”<br>“既然你决意已定，我就不再说什么了。”<br> 并不清楚他们讨论的内容，也貌似并不关自己什么事，少年回了自己的房间。</p>
+<p>少年在睡梦之中迷迷糊糊地感觉到有人在拉扯自己的身体。还有若隐若现的说话声。<br>“麻醉已经完毕。”<br>“夫人，你真的决定这样吗？虽然我们只要得到钱就无所谓。”<br>“啊我可爱的小儿子啊，你就这样在哥哥的身体里生活吧。”</p>
+<p> 意识不清的状态已经过去，少年看向身体。似乎怀了孕一样肚子隆了起来。而且疼得要命。<br>有人推门进来，是与平常完全不同笑容的母亲。<br>“你的弟弟就在你的体内，你们俩要一起茁壮成长啊。我会一起关心你们的。”<br>眼中露着几近癫狂的神色的母亲，看着少年的肚子，微笑着。</p>
+]]></content>
+      <categories>
+        <category>Stories</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>短篇</tag>
+        <tag>温暖人心</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建此博客时踩的坑</title>
+    <url>/2021/05/Notes-BuildHexoRecord/</url>
+    <content><![CDATA[<p>好不容易搭好了博客，在此记录一下踩的各种坑和经验。</p>
+<hr>
+<h3 id="有关部署"><a href="#有关部署" class="headerlink" title="有关部署"></a>有关部署</h3><h4 id="本地测非常重要"><a href="#本地测非常重要" class="headerlink" title="本地测非常重要"></a>本地测非常重要</h4><p>部署到github上面前一定要本地测过，不然不能更新到主页上。<br>也就是：<br>    hexo clean    //清除本地public缓存<br>    hexo g    //重新编译public<br>    hexo s    //在<a href="http://localhost:4000/%E9%A2%84%E8%A7%88%E6%9C%AC%E5%9C%B0%E4%BF%AE%E6%94%B9">http://localhost:4000/预览本地修改</a><br>    hexo d    //第三步确认无误后，部署到github<br>这样就能确保本地的设置信息可以同步到主页上~</p>
+<span id="more"></span>
+
+<h4 id="报错“Unable-to-build-page”"><a href="#报错“Unable-to-build-page”" class="headerlink" title="报错“Unable to build page”"></a>报错“Unable to build page”</h4><blockquote>
+<p>The page build failed for the “master” branch with the following error:<br>Unable to build page. Please try again later.<br>For information on troubleshooting Jekyll see:<br>“<a href="https://docs.github.com/articles/troubleshooting-jekyll-builds&quot;">https://docs.github.com/articles/troubleshooting-jekyll-builds&quot;</a></p>
+</blockquote>
+<p>gitpage默认是用Jekyll来编写的，但是我用的是Hexo来建站。Hexo有一些Jekyll不支持的文件命名方式。<br>比如开头是下划线。Hexo最重要的配置文件_config.yml就是以下划线开头的<br>这时候要把Jekyll强行扭到Hexo。<br>添加一个.nojekyll的空文件到根目录即可解决。</p>
+<h3 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h3><h4 id="阅读全文"><a href="#阅读全文" class="headerlink" title="阅读全文"></a>阅读全文</h4><p>由于我选的NexT主题是Muse，它的文章默认是全文显示。这样太占空间了，我想显示一部分，然后剩下的隐藏并显示“阅读全文”按钮。<br>文本编辑时，在想要截断的地方加上一句  <!--more--><br>即可。</p>
+<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>以后有问题再记录吧~</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「羁绊」 「笑容」 「星光」</title>
+    <url>/2015/10/Story-FetterSmileStarlight/</url>
+    <content><![CDATA[<p>直到那一天为止，我们约好的。<br>少女向我展露出那样灿烂的笑容，像星光一般耀眼。<br>所以我也得努力才行，为了我们的羁绊。<br>就算只是为了少女。</p>
+<span id="more"></span>
+
+<p>这些也不行呢。我望着这几天收集来的素材，深深地叹了一口气。<br>为了建造能够让少女安眠的城堡，我夜以继日地寻找材料。最近材料越来越难找了，不知道为什么大家都把材料藏得好好的。常去的那个城市也不肯给我提供材料了。<br>这样下去会来不及的。就算用上以前制作的，已经风干了的材料的话，也远远不够。</p>
+<p>今天早些时候，我去医院看了那位少女。她自知已经没有多长时间了，所以向我又一次地提起那个约定。<br>我会实现的。我每次每次都向少女这样承诺。我会建造让你能够安心睡眠的城堡的。<br>只是一味叹气并不能解决问题，趁天亮前还是再去山下搜集点素材比较好。</p>
+<p>过了一段时间，终于完成了城堡。少女也，差不多是时候搬进去了。<br>把少女从医院里搬出来，虚弱的她脸上却洋溢着星光似的笑容。<br>费了好大劲才将少女带到山顶的城堡。城堡的下部分已经开始塌陷了。<br>将少女放到中心的床上，轻柔地盖上人皮的被子，作为床脚的数十根肋骨稍稍倾斜了一些。</p>
+<p>少女闭着眼睛，微微嗫嚅着什么。已经没有力气说话了。<br>我向少女道别，然后慢慢地走出了城堡。<br>用力地关上镶满黯淡的眼球的大门，城堡震了一下，然后簌簌落落地从上头掉了一些肉块下来。<br>我后退了几步，城堡就整个塌了。作为基座的腐烂人体和作为装饰的器官把少女整个埋住了。这是最神圣的墓碑了吧。</p>
+<p>于是我听见风带来的她的声音：“谢谢你。”<br>这么说了。我知道她已经安心地睡去了。</p>
+]]></content>
+      <categories>
+        <category>Stories</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>短篇</tag>
+        <tag>温暖人心</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「糖果」 「指尖」 「土」</title>
+    <url>/2015/10/Story-CandyFingerDirt/</url>
+    <content><![CDATA[<p>少女所憧憬的那片白色。<br>少女睁开眼睛，指尖只能碰到周围的泥土，呼吸也好像喘不过气来一般压抑。四周一片黑暗。鼻尖还萦绕着湿土的气味。<br>爸爸……？妈妈……？不在身边吗？<br>感受不到双腿的运动。是被什么东西压得太严实了吧。</p>
+<span id="more"></span>
+<p>从腰部附近传来阵阵瘙痒。像是被几万只细小的虫子啃噬的快感。<br>于是少女从土里起身，望着自己的身体。腰以下的部位盛开着枯萎的鲜花。<br>“我所憧憬的那片白色……”</p>
+<p>少女漫无目的地游荡。可能是执念的缘故，没多久就回到了那个家。有父母的温暖的那个家。<br>“爸爸妈妈，我回来了。”当然这是没可能听到的吧，虽然说之前也装作没听到但是这次应该是真的。<br>从客厅里传来响动。少女循声走去，熟悉的景象映入眼帘。<br>客厅里一片狼藉，桌子上的糖果也撒了一地。<br>“这样你该满足了吧！”亲爱的妈妈满脸泪痕，明显是之前一直在哭。<br>“你，你说什么呢！不是你让我干的吗？你这家伙干了就忘了本吗！”亲爱的爸爸穿着工作服，身上沾满泥土。<br>“那孩子……那孩子可是……”<br>“没生出来就好了。你以为你说过几次了啊！”<br>“已经……可以了吧，那个孩子已经没法再出现了。身体都切成那么多块了。”<br>“没问题了。谁也不会发现。我把她埋在十二个不同的地方了。”<br>“不行啊不行啊不行啊不行啊不行啊绝对绝对绝对绝对会回来的啊啊啊啊！”<br>“够了！”<br>亲爱的爸爸举起斜靠在墙边的铲子，刚刚还碰触过自己身体的那把铲子。铲子的前端顺利地切开妈妈的头骨，卡在颈椎和脊椎连接的地方。<br>“这样…这样就行了……烦人的家伙们全都消失了……接下来就是处理了。把她和那孩子一样切成，不，要切成更多才行。不，还是用绞肉机吧。”<br>爸爸拿出工作用的大型绞肉机，设置好，把碎块的妈妈放进去，打开开关，然后不经意间转头看了这边。<br>“你，你是……果然会回来的吗……果然……果然……”<br>爸爸脚下一踉跄，左脚踩进了绞肉机。<br>“呃啊啊啊啊啊啊救我啊救我啊原谅我啊啊啊啊啊唔唔唔唔咳咳咳咳！！！”<br>爸爸妈妈和睦地在一起了。<br>我也和他们在一起。<br>和睦温暖的家庭真好。</p>
+<p>前方出现了眩目的白色。<br>少女注视着。<br>“欢迎回来。”少女说道。</p>
+]]></content>
+      <categories>
+        <category>Stories</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>短篇</tag>
+        <tag>温暖人心</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「笑容」 「相拥」 「牵手」</title>
+    <url>/2015/10/Story-SmileHugHands/</url>
+    <content><![CDATA[<p>少女钻出茧，茫然地看向荒芜的大地。<br>“睡吧，安静的睡吧。因为你是我唯一的xx呀。”<br>从茧内传出的电子声，由于混入了金属噪音，使得少女无法听清楚最后的词语。</p>
+<span id="more"></span>
+<p>少女看向天空，成排的茧被挂在空中，好像成排的墓碑。<br>少女不知道是怎么来到这里的，也不知道自己的名字。微微记得自己是为了某个人才诞生于这世上的。<br>那个人一定有很美的笑容吧，少女轻轻的说。<br>突然“哔”的一声，连接着如同繁密的根茎的茧群上方，盛开了一朵巨大的花。很快的，从四面八方出现了小小的精灵，提着桶来采花蜜。<br>少女的茧中慢慢流入黄绿色的液体，少女钻回茧中，坐在黄绿色液体之中。<br>暖暖的，好像与恋人的相拥。虽然少女并不知道恋人是什么。<br>黄绿色的液体开始腐蚀少女的脚，但是少女毫无感觉。<br>什么时候可以和“那个人”牵手呢？少女微笑着做着白日梦。<br>茧的门关上，黄绿色液体渐渐增多，少女的身体渐渐地融化在液体里。<br>“睡吧，安静的睡吧。因为你是我唯一的营养呀。”<br>少女带着美梦，沉沉的睡去了。</p>
+]]></content>
+      <categories>
+        <category>Stories</category>
+      </categories>
+      <tags>
+        <tag>原创</tag>
+        <tag>短篇</tag>
+        <tag>温暖人心</tag>
+      </tags>
+  </entry>
+</search>

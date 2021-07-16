@@ -96,6 +96,49 @@ git push -u origin master
       </tags>
   </entry>
   <entry>
+    <title>210715</title>
+    <url>/2021/07/Notes-210715/</url>
+    <content><![CDATA[<blockquote>
+<p>1.unity打安卓包时理论上无关的插件设置</p>
+</blockquote>
+<span id="more"></span>  
+
+<h3 id="1-unity打安卓包时理论上无关的插件设置"><a href="#1-unity打安卓包时理论上无关的插件设置" class="headerlink" title="1.unity打安卓包时理论上无关的插件设置"></a>1.unity打安卓包时理论上无关的插件设置</h3><p>打安卓包的时候有报错：</p>
+<pre><code>Exception: Unknown CPU architecture for library Assets/Plugins/iOS/GCloudSDK/MSDKWeChat/ThirdSDK/libWeChatSDK.a
+</code></pre>
+<p>这是因为这个文件是专门给ios用的，安卓是用不到的。<br>解决方法：<br><strong>选中文件–Select platforms for plugin–Include Platforms–只选择ios–Apply</strong></p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>210716</title>
+    <url>/2021/07/Notes-210716/</url>
+    <content><![CDATA[<blockquote>
+<p>unity的adb连接MUMU模拟器并打印日志</p>
+</blockquote>
+<span id="more"></span>  
+
+<h3 id="unity的adb连接MUMU模拟器并打印日志"><a href="#unity的adb连接MUMU模拟器并打印日志" class="headerlink" title="unity的adb连接MUMU模拟器并打印日志"></a>unity的adb连接MUMU模拟器并打印日志</h3><p>1.cmd窗口输入：</p>
+<pre><code>adb connect 127.0.0.1:7555
+</code></pre>
+<p>2.设置log打印的地方</p>
+<pre><code>adb logcat &gt;D:\log.txt
+</code></pre>
+<p>3.按ctrl+C中止写入</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建此博客时踩的坑</title>
     <url>/2021/05/Notes-BuildHexoRecord/</url>
     <content><![CDATA[<p>好不容易搭好了博客，在此记录一下踩的各种坑和经验。</p>
